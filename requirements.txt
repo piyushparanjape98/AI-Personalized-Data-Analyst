@@ -1,0 +1,10 @@
+streamlit
+groq
+pandas
+numpy
+plotly
+matplotlib
+scikit-learn
+python-dotenv
+openpyxl
+tabulate
