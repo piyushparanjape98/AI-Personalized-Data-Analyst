@@ -248,5 +248,10 @@ def inject_css():
     /* ── HIDE CHROME ── */
     #MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] { display: none !important; }
     hr { border-color: var(--border) !important; }
+                
+    /* Force desktop view on mobile */
+    [data-testid="stAppViewContainer"] {
+    min-width: 1024px !important;
+    }
     </style>
     """, unsafe_allow_html=True)
